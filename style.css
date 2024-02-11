@@ -141,22 +141,47 @@ nav{
 }
 
 
-.header-slider a{
+.header-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+}
+
+.header-slider ul {
+    display: flex;
+    overflow: hidden;
+    padding: 0; 
+    margin: 0; 
+}
+
+.header-img {
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+    transition: transform 0.5s ease-in-out; 
+    flex: 0 0 100%; 
+}
+
+.control_prev,
+.control_next {
     position: absolute;
-    top: 20%;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1;
-    padding: 5vh 1vw;
+    padding: 10px;
     background: #ffffff4f;
-    color: #0000007b;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
+    color: #000;
+    border: none;
     cursor: pointer;
 }
 
-.control_next{
+.control_prev {
+    left: 0;
+}
+
+.control_next {
     right: 0;
 }
+
 
 
 .box-row{
@@ -187,4 +212,99 @@ nav{
 
 .header-box{
     margin-top: -15vw;
+}
+
+
+.product-slider{
+    background-color: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.product-slider .products{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.product-slider .products img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.product-slider .products::-webkit-scrollbar{
+    display: none;
+}
+
+product-slider-with-price{
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.product-slider-with-price .products{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+
+.product-slider-with-price .products:-webkit-scrollbar{
+    display: none;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background: #fbfbfb;
+}
+
+.product-card{
+    width: 110px;
+    height: 440px;
+    margin:0 50px ;
+}
+
+
+.product-offer p {
+    background: #be0b3b;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px; /* Adjusted padding for better spacing */
+    border-radius: 2px;
+    margin: 0; /* Removed top and bottom margins */
+    font-size: 15px;
+}
+
+.product-offer span {
+    color: #be0b3b;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.product-price {
+    color: gray;
+    font-size: 13px;
+}
+
+.product-card h4 {
+    color: #525252;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
 }
