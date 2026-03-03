@@ -53,7 +53,7 @@ Google Fonts & Icons (optional)
 
 Download or clone the repo:
 
-git clone https://github.com/your-username/amazon-frontend.git
+git clone https://github.com/Aditya-Raj-Kaushik/amazon-frontend.git
 
 Open the folder:
 
