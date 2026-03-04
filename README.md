@@ -1,62 +1,100 @@
-Amazon Frontend Clone
+Amazon Clone – Frontend E-Commerce Website
+📌 About The Project
 
-A simple Amazon UI clone built using HTML, CSS, and JavaScript.
-This project recreates the look and feel of Amazon’s homepage while focusing on clean layout, responsive design, and reusable components.
+This is a responsive Amazon homepage clone built using HTML, CSS, and JavaScript.
+The project replicates the core UI layout of Amazon, including the navigation bar, hero section, product sections, and footer.
+
+The goal of this project was to:
+
+Practice frontend development fundamentals
+
+Improve layout building using Flexbox & CSS Grid
+
+Understand real-world UI structure
+
+Enhance DOM manipulation skills
 
 🚀 Features
-🎨 Modern UI
 
-Fully responsive homepage
+🧭 Fully designed Amazon-style navigation bar
 
-Amazon-style navbar, product cards, and footer
+🔍 Search bar UI
 
-Clean and reusable CSS components
+📦 Product category sections
 
-🛒 Functional Components
+🛍️ Product cards layout
 
-Search bar (with placeholder logic in JS)
+📱 Responsive design
 
-Dynamic product sliders
+🎨 Clean and modern styling
 
-Add-to-Cart button UI
+🦶 Detailed footer section
 
-Dropdown menus similar to Amazon
+🛠️ Tech Stack
 
-📱 Responsive Layout
+HTML5 – Page structure
 
-Works on desktop, tablet, and mobile
+CSS3 – Styling (Flexbox & Grid)
 
-Flexbox + Grid design
+JavaScript – Basic interactivity
 
-Adaptive images and text scaling
+📂 Project Structure
+Amazon-Clone/
+│── assets/          # Images and static files
+│── index.html       # Main HTML file
+│── style.css        # Styling file
+│── script.js        # JavaScript logic
+│── README.md
+🎯 What I Learned
 
-📁 Project Structure
-amazon-clone/
-│── index.html
-│── /css
-│     └── style.css
-│── /js
-│     └── script.js
-│── /assets
-│     └── images/
-🧩 Tech Used
+Building complex layouts like real e-commerce websites
 
-HTML5 – structure
+Positioning elements using Flexbox & Grid
 
-CSS3 – styling, layout, responsiveness
+Creating reusable UI components
 
-JavaScript (ES6) – interactivity, sliders, menus
+Improving CSS structuring
 
-Google Fonts & Icons (optional)
+Handling basic DOM interactions
 
-⚙️ How to Run
+🖥️ How to Run Locally
 
-Download or clone the repo:
+Clone the repository
 
-git clone https://github.com/Aditya-Raj-Kaushik/amazon-frontend.git
+git clone https://github.com/your-username/amazon-clone.git
 
-Open the folder:
+Open the folder
 
-cd amazon-frontend
+Double-click index.html
+OR
+Open with Live Server in VS Code
 
-Launch the project by opening index.html in your browser.
+No dependencies required. Pure frontend project.
+
+📸 Screenshots
+
+(Add screenshots inside assets folder and link here)
+
+Example:
+
+![Homepage Screenshot](assets/homepage.png)
+📌 Future Improvements
+
+🛒 Add cart functionality
+
+👤 Add login/signup page
+
+💳 Add checkout page
+
+📦 Dynamic product loading using API
+
+🌐 Convert into full-stack application
+
+⚠️ Disclaimer
+
+This project is created for educational purposes only.
+It is a frontend clone inspired by Amazon’s UI and does not represent the official Amazon website.
+
+📜 License
+
+This project is open-source and available under the MIT License.
